@@ -1,14 +1,131 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.2">
   <diagram name="페이지-1" id="Ty02AL-ChVaSdqM5_bKr">
-    <mxGraphModel dx="1044" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="508" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="8_o_nkduab_r_s1Rcs5e-1" value="Guest" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="100" width="30" height="60" as="geometry" />
+        <mxCell id="8_o_nkduab_r_s1Rcs5e-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8_o_nkduab_r_s1Rcs5e-1" target="8_o_nkduab_r_s1Rcs5e-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8_o_nkduab_r_s1Rcs5e-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="270" y="230" width="30" height="60" as="geometry" />
+        <mxCell id="8_o_nkduab_r_s1Rcs5e-1" value="비로그인&lt;div&gt;사용자&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="205" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8_o_nkduab_r_s1Rcs5e-2" value="로그인&lt;div&gt;사용자&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="435" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8_o_nkduab_r_s1Rcs5e-13" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;D-Day 추가&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="290" y="200" width="105" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8_o_nkduab_r_s1Rcs5e-16" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;캘린더 확인&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="290" y="285" width="105" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8_o_nkduab_r_s1Rcs5e-17" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;추억 일기에&lt;/div&gt;&lt;div&gt;일기 추가&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="290" y="375" width="105" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8_o_nkduab_r_s1Rcs5e-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8_o_nkduab_r_s1Rcs5e-1" target="8_o_nkduab_r_s1Rcs5e-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="325" as="sourcePoint" />
+            <mxPoint x="240" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_o_nkduab_r_s1Rcs5e-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.008;entryY=0.403;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8_o_nkduab_r_s1Rcs5e-1" target="8_o_nkduab_r_s1Rcs5e-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="295" as="sourcePoint" />
+            <mxPoint x="230" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_o_nkduab_r_s1Rcs5e-20" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;서버에&lt;/div&gt;&lt;div&gt;데이터 업로드&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="290" y="465" width="105" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8_o_nkduab_r_s1Rcs5e-21" value="&lt;br&gt;&lt;div&gt;서버에서&lt;/div&gt;&lt;div&gt;데이터 다운로드&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="290" y="555" width="105" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8_o_nkduab_r_s1Rcs5e-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.057;entryY=0.312;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8_o_nkduab_r_s1Rcs5e-2" target="8_o_nkduab_r_s1Rcs5e-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="495" as="sourcePoint" />
+            <mxPoint x="260" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_o_nkduab_r_s1Rcs5e-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8_o_nkduab_r_s1Rcs5e-2" target="8_o_nkduab_r_s1Rcs5e-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="485" as="sourcePoint" />
+            <mxPoint x="250" y="435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_o_nkduab_r_s1Rcs5e-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8_o_nkduab_r_s1Rcs5e-2" target="8_o_nkduab_r_s1Rcs5e-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="455" as="sourcePoint" />
+            <mxPoint x="260" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_o_nkduab_r_s1Rcs5e-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.008;entryY=0.589;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8_o_nkduab_r_s1Rcs5e-2" target="8_o_nkduab_r_s1Rcs5e-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="465" as="sourcePoint" />
+            <mxPoint x="250" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_o_nkduab_r_s1Rcs5e-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.015;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8_o_nkduab_r_s1Rcs5e-2" target="8_o_nkduab_r_s1Rcs5e-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="405" as="sourcePoint" />
+            <mxPoint x="230" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_o_nkduab_r_s1Rcs5e-27" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;사용자 인증&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="375" width="105" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8_o_nkduab_r_s1Rcs5e-32" value="&amp;lt;&amp;lt; include &amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="474" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8_o_nkduab_r_s1Rcs5e-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.386;entryY=0.975;entryDx=0;entryDy=0;dashed=1;entryPerimeter=0;" edge="1" parent="1" source="8_o_nkduab_r_s1Rcs5e-20" target="8_o_nkduab_r_s1Rcs5e-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="565" as="sourcePoint" />
+            <mxPoint x="450" y="515" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_o_nkduab_r_s1Rcs5e-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="8_o_nkduab_r_s1Rcs5e-21" target="8_o_nkduab_r_s1Rcs5e-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="381" y="535" as="sourcePoint" />
+            <mxPoint x="446" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_o_nkduab_r_s1Rcs5e-36" value="&amp;lt;&amp;lt; include &amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="564" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8_o_nkduab_r_s1Rcs5e-38" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;로그인&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="195" width="105" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8_o_nkduab_r_s1Rcs5e-39" value="&lt;br&gt;&lt;div&gt;회원가입&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="285" width="105" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8_o_nkduab_r_s1Rcs5e-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8_o_nkduab_r_s1Rcs5e-1" target="8_o_nkduab_r_s1Rcs5e-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="210" as="sourcePoint" />
+            <mxPoint x="280" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="163" y="140" />
+              <mxPoint x="450" y="140" />
+              <mxPoint x="450" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_o_nkduab_r_s1Rcs5e-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8_o_nkduab_r_s1Rcs5e-1" target="8_o_nkduab_r_s1Rcs5e-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="140" as="sourcePoint" />
+            <mxPoint x="210" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="155" y="120" />
+              <mxPoint x="533" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_o_nkduab_r_s1Rcs5e-42" value="Application System" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="160" width="180" height="480" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
