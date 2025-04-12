@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="360" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1215" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,10 +25,10 @@
             <mxPoint x="90.5" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7" value="메뉴에서 캘린더&#xa;탭 열기" style="" parent="2" vertex="1">
+        <mxCell id="7" value="메뉴에서 캘린더&#xa;탭 열기" style="rounded=1;" parent="2" vertex="1">
           <mxGeometry x="35.5" y="110" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="캘린더 조회" style="" parent="2" vertex="1">
+        <mxCell id="8" value="캘린더 조회" style="rounded=1;" parent="2" vertex="1">
           <mxGeometry x="35.5" y="220" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="11" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" parent="2" source="8" edge="1">
@@ -51,10 +51,10 @@
         <mxCell id="3" value="시스템" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
           <mxGeometry x="420" y="128" width="180" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="15" value="D-Day 리스트를&#xa;가져와 캘린더에 표시" style="" parent="3" vertex="1">
+        <mxCell id="15" value="D-Day 리스트를&#xa;가져와 캘린더에 표시" style="rounded=1;" parent="3" vertex="1">
           <mxGeometry x="20" y="110" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="18" value="D-Day 추가" style="" parent="3" vertex="1">
+        <mxCell id="18" value="D-Day 추가" style="rounded=1;" parent="3" vertex="1">
           <mxGeometry x="20" y="304.5" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="y3eNF4GlEOCfWNzb17ow-42" value="D-Day 앱 캘린더 관련 활동" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
