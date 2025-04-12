@@ -25,7 +25,7 @@
           <mxGeometry x="256.5" y="118" width="280" height="602" as="geometry" />
         </mxCell>
         <mxCell id="t_auLCXmTcXrtDB10hNU-11" value="서버에 요청 전송" style="rounded=1;" vertex="1" parent="t_auLCXmTcXrtDB10hNU-10">
-          <mxGeometry x="29" y="92" width="110" height="50" as="geometry" />
+          <mxGeometry x="43.5" y="92" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="t_auLCXmTcXrtDB10hNU-42" value="&amp;lt;&amp;lt;아니오&amp;gt;&amp;gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="t_auLCXmTcXrtDB10hNU-10">
           <mxGeometry x="210" y="214.5" width="70" height="30" as="geometry" />
