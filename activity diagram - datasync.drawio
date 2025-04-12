@@ -1,9 +1,117 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
   <diagram name="페이지-1" id="g6CH99r--_x_THVzbAb0">
-    <mxGraphModel>
+    <mxGraphModel dx="1215" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="t_auLCXmTcXrtDB10hNU-1" value="사용자" style="swimlane;whiteSpace=wrap;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="164.5" y="128" width="165.5" height="462" as="geometry" />
+        </mxCell>
+        <mxCell id="t_auLCXmTcXrtDB10hNU-2" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="t_auLCXmTcXrtDB10hNU-1">
+          <mxGeometry x="65.5" y="35" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_auLCXmTcXrtDB10hNU-3" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="t_auLCXmTcXrtDB10hNU-1" source="t_auLCXmTcXrtDB10hNU-2" target="t_auLCXmTcXrtDB10hNU-4">
+          <mxGeometry x="90" y="40" as="geometry">
+            <mxPoint x="80.5" y="105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_auLCXmTcXrtDB10hNU-6" value="" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#ff0000" vertex="1" parent="t_auLCXmTcXrtDB10hNU-1">
+          <mxGeometry x="25.5" y="412" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_auLCXmTcXrtDB10hNU-4" value="데이터 동기화 요청" style="rounded=1;" vertex="1" parent="t_auLCXmTcXrtDB10hNU-1">
+          <mxGeometry x="25.5" y="92" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t_auLCXmTcXrtDB10hNU-27" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="t_auLCXmTcXrtDB10hNU-1">
+          <mxGeometry x="95.5" y="399.5" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="t_auLCXmTcXrtDB10hNU-30" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeColor=#FF0000;endArrow=open;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="t_auLCXmTcXrtDB10hNU-1" source="t_auLCXmTcXrtDB10hNU-27" target="t_auLCXmTcXrtDB10hNU-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145.5" y="127" as="sourcePoint" />
+            <mxPoint x="204.5" y="127" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_auLCXmTcXrtDB10hNU-10" value="시스템" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="330" y="128" width="270" height="462" as="geometry" />
+        </mxCell>
+        <mxCell id="t_auLCXmTcXrtDB10hNU-8" value="서버에서&#xa;데이터 업로드" style="rounded=1;" vertex="1" parent="t_auLCXmTcXrtDB10hNU-10">
+          <mxGeometry x="29" y="332" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t_auLCXmTcXrtDB10hNU-25" value="서버에서&#xa;데이터 다운로드" style="rounded=1;" vertex="1" parent="t_auLCXmTcXrtDB10hNU-10">
+          <mxGeometry x="29" y="234.5" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t_auLCXmTcXrtDB10hNU-11" value="서버에 요청 전송" style="rounded=1;" vertex="1" parent="t_auLCXmTcXrtDB10hNU-10">
+          <mxGeometry x="29" y="92" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t_auLCXmTcXrtDB10hNU-12" value="&amp;lt;&amp;lt;서버 데이터&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="t_auLCXmTcXrtDB10hNU-10">
+          <mxGeometry x="139" y="234.5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_auLCXmTcXrtDB10hNU-14" value="&amp;lt;&amp;lt;사용자 기기 데이터&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="t_auLCXmTcXrtDB10hNU-10">
+          <mxGeometry x="139" y="332" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_auLCXmTcXrtDB10hNU-18" value="D-Day 앱 데이터 동기화 관련 활동" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="164.5" y="90" width="385.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_auLCXmTcXrtDB10hNU-19" value="서버 시스템" style="swimlane;whiteSpace=wrap;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="600" y="128" width="150" height="462" as="geometry" />
+        </mxCell>
+        <mxCell id="t_auLCXmTcXrtDB10hNU-13" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="t_auLCXmTcXrtDB10hNU-19">
+          <mxGeometry x="20" y="232" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="t_auLCXmTcXrtDB10hNU-17" value="어느 쪽 데이터가&lt;div&gt;최신인가?&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="t_auLCXmTcXrtDB10hNU-19">
+          <mxGeometry x="53" y="197" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_auLCXmTcXrtDB10hNU-22" value="데이터 변경사항&#xa;체크" style="rounded=1;" vertex="1" parent="t_auLCXmTcXrtDB10hNU-19">
+          <mxGeometry x="20" y="142" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t_auLCXmTcXrtDB10hNU-15" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="t_auLCXmTcXrtDB10hNU-19" target="t_auLCXmTcXrtDB10hNU-13" source="t_auLCXmTcXrtDB10hNU-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="47.5" y="207" as="sourcePoint" />
+            <mxPoint x="-15" y="404.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_auLCXmTcXrtDB10hNU-31" value="&amp;lt;&amp;lt;두 데이터가 같음&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="t_auLCXmTcXrtDB10hNU-19">
+          <mxGeometry x="14" y="392" width="67" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_auLCXmTcXrtDB10hNU-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;strokeColor=#FF0000;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="t_auLCXmTcXrtDB10hNU-11" target="t_auLCXmTcXrtDB10hNU-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="258" as="sourcePoint" />
+            <mxPoint x="530" y="258" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_auLCXmTcXrtDB10hNU-9" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="t_auLCXmTcXrtDB10hNU-8" target="t_auLCXmTcXrtDB10hNU-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="538" y="480" as="sourcePoint" />
+            <mxPoint x="302.25" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_auLCXmTcXrtDB10hNU-23" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="t_auLCXmTcXrtDB10hNU-13" target="t_auLCXmTcXrtDB10hNU-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="410" as="sourcePoint" />
+            <mxPoint x="658" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_auLCXmTcXrtDB10hNU-26" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="t_auLCXmTcXrtDB10hNU-13" target="t_auLCXmTcXrtDB10hNU-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="658" y="425" as="sourcePoint" />
+            <mxPoint x="470" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_auLCXmTcXrtDB10hNU-20" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeColor=#FF0000;endArrow=open;endFill=0;" edge="1" parent="1" source="t_auLCXmTcXrtDB10hNU-4" target="t_auLCXmTcXrtDB10hNU-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t_auLCXmTcXrtDB10hNU-28" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="t_auLCXmTcXrtDB10hNU-25" target="t_auLCXmTcXrtDB10hNU-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="369" y="495" as="sourcePoint" />
+            <mxPoint x="325" y="565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_auLCXmTcXrtDB10hNU-29" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="t_auLCXmTcXrtDB10hNU-13" target="t_auLCXmTcXrtDB10hNU-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="460" as="sourcePoint" />
+            <mxPoint x="686" y="627" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
