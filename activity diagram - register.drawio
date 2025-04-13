@@ -1,74 +1,81 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
   <diagram name="페이지-1" id="Z3MUPWsjcf1fWxBZGg0Y">
-    <mxGraphModel dx="1429" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1454" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2lLB-E0RqOmEVBIA-LBa-1" value="사용자" style="swimlane;whiteSpace=wrap;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="164.5" y="128" width="165.5" height="462" as="geometry" />
+        <mxCell id="2lLB-E0RqOmEVBIA-LBa-1" value="사용자" style="swimlane;whiteSpace=wrap;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="164.5" y="128" width="165.5" height="442" as="geometry" />
         </mxCell>
-        <mxCell id="2lLB-E0RqOmEVBIA-LBa-4" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="2lLB-E0RqOmEVBIA-LBa-1">
+        <mxCell id="2lLB-E0RqOmEVBIA-LBa-4" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="2lLB-E0RqOmEVBIA-LBa-1" vertex="1">
           <mxGeometry x="65.5" y="35" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2lLB-E0RqOmEVBIA-LBa-5" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="2lLB-E0RqOmEVBIA-LBa-1" source="2lLB-E0RqOmEVBIA-LBa-4" target="2lLB-E0RqOmEVBIA-LBa-6">
+        <mxCell id="2lLB-E0RqOmEVBIA-LBa-5" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0" parent="2lLB-E0RqOmEVBIA-LBa-1" source="2lLB-E0RqOmEVBIA-LBa-4" target="2lLB-E0RqOmEVBIA-LBa-6" edge="1">
           <mxGeometry x="90" y="40" as="geometry">
             <mxPoint x="80.5" y="105" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2lLB-E0RqOmEVBIA-LBa-6" value="회원가입 정보 입력" style="rounded=1;" vertex="1" parent="2lLB-E0RqOmEVBIA-LBa-1">
+        <mxCell id="2lLB-E0RqOmEVBIA-LBa-6" value="회원가입 정보 입력" style="rounded=1;" parent="2lLB-E0RqOmEVBIA-LBa-1" vertex="1">
           <mxGeometry x="25.5" y="105" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="2lLB-E0RqOmEVBIA-LBa-27" value="회원가입 완료" style="rounded=1;" vertex="1" parent="2lLB-E0RqOmEVBIA-LBa-1">
-          <mxGeometry x="25.5" y="292" width="110" height="50" as="geometry" />
+        <mxCell id="2lLB-E0RqOmEVBIA-LBa-13" value="시스템" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
+          <mxGeometry x="330" y="128" width="150" height="442" as="geometry" />
         </mxCell>
-        <mxCell id="2lLB-E0RqOmEVBIA-LBa-2" value="" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#ff0000" vertex="1" parent="2lLB-E0RqOmEVBIA-LBa-1">
-          <mxGeometry x="65.5" y="402" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="2lLB-E0RqOmEVBIA-LBa-28" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="2lLB-E0RqOmEVBIA-LBa-1" source="2lLB-E0RqOmEVBIA-LBa-27" target="2lLB-E0RqOmEVBIA-LBa-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="126" y="362" as="sourcePoint" />
-            <mxPoint x="125.5" y="417" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2lLB-E0RqOmEVBIA-LBa-13" value="시스템" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
-          <mxGeometry x="330" y="128" width="150" height="462" as="geometry" />
-        </mxCell>
-        <mxCell id="2lLB-E0RqOmEVBIA-LBa-14" value="회원가입 정보&#xa;서버에 전송" style="rounded=1;" vertex="1" parent="2lLB-E0RqOmEVBIA-LBa-13">
+        <mxCell id="2lLB-E0RqOmEVBIA-LBa-14" value="회원가입 정보&#xa;서버에 전송" style="rounded=1;" parent="2lLB-E0RqOmEVBIA-LBa-13" vertex="1">
           <mxGeometry x="20" y="105" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="2lLB-E0RqOmEVBIA-LBa-11" value="&amp;lt;&amp;lt;아니오&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2lLB-E0RqOmEVBIA-LBa-13">
+        <mxCell id="2lLB-E0RqOmEVBIA-LBa-11" value="&amp;lt;&amp;lt;아니오&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="2lLB-E0RqOmEVBIA-LBa-13" vertex="1">
           <mxGeometry x="74" y="155" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2lLB-E0RqOmEVBIA-LBa-12" value="&amp;lt;&amp;lt;예&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2lLB-E0RqOmEVBIA-LBa-13">
+        <mxCell id="2lLB-E0RqOmEVBIA-LBa-12" value="&amp;lt;&amp;lt;예&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="2lLB-E0RqOmEVBIA-LBa-13" vertex="1">
           <mxGeometry x="180" y="207" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2lLB-E0RqOmEVBIA-LBa-16" value="D-Day 앱 회원가입 관련 활동" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+        <mxCell id="2lLB-E0RqOmEVBIA-LBa-16" value="D-Day 앱 회원가입 관련 활동" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
           <mxGeometry x="164.5" y="90" width="315.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2lLB-E0RqOmEVBIA-LBa-20" value="서버 시스템" style="swimlane;whiteSpace=wrap;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="480" y="128" width="163" height="462" as="geometry" />
+        <mxCell id="2lLB-E0RqOmEVBIA-LBa-20" value="서버 시스템" style="swimlane;whiteSpace=wrap;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="480" y="128" width="163" height="442" as="geometry" />
         </mxCell>
-        <mxCell id="2lLB-E0RqOmEVBIA-LBa-22" value="서버에 계정 추가" style="rounded=1;" vertex="1" parent="2lLB-E0RqOmEVBIA-LBa-20">
-          <mxGeometry x="20" y="292" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="2lLB-E0RqOmEVBIA-LBa-9" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="2lLB-E0RqOmEVBIA-LBa-20">
+        <mxCell id="2lLB-E0RqOmEVBIA-LBa-9" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="2lLB-E0RqOmEVBIA-LBa-20" vertex="1">
           <mxGeometry x="30" y="162" width="35" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="2lLB-E0RqOmEVBIA-LBa-3" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="2lLB-E0RqOmEVBIA-LBa-20" source="2lLB-E0RqOmEVBIA-LBa-9" target="2lLB-E0RqOmEVBIA-LBa-22">
+        <mxCell id="2lLB-E0RqOmEVBIA-LBa-3" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="2lLB-E0RqOmEVBIA-LBa-20" source="2lLB-E0RqOmEVBIA-LBa-9" target="2lLB-E0RqOmEVBIA-LBa-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="47.5" y="207" as="sourcePoint" />
             <mxPoint x="-15" y="404.5" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2lLB-E0RqOmEVBIA-LBa-10" value="필요한 정보가&lt;div&gt;모두 입력되었는가?&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2lLB-E0RqOmEVBIA-LBa-20">
+        <mxCell id="2lLB-E0RqOmEVBIA-LBa-10" value="필요한 정보가&lt;div&gt;모두 입력되었는가?&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="2lLB-E0RqOmEVBIA-LBa-20" vertex="1">
           <mxGeometry x="53" y="132" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2lLB-E0RqOmEVBIA-LBa-17" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeColor=#FF0000;endArrow=open;endFill=0;" edge="1" parent="1" source="2lLB-E0RqOmEVBIA-LBa-6" target="2lLB-E0RqOmEVBIA-LBa-14">
+        <mxCell id="2lLB-E0RqOmEVBIA-LBa-27" value="회원가입 완료" style="rounded=1;" parent="2lLB-E0RqOmEVBIA-LBa-20" vertex="1">
+          <mxGeometry x="-290" y="272" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2lLB-E0RqOmEVBIA-LBa-2" value="" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#ff0000" parent="2lLB-E0RqOmEVBIA-LBa-20" vertex="1">
+          <mxGeometry x="-250" y="382" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2lLB-E0RqOmEVBIA-LBa-28" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="2lLB-E0RqOmEVBIA-LBa-20" source="2lLB-E0RqOmEVBIA-LBa-27" target="2lLB-E0RqOmEVBIA-LBa-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-189.5" y="342" as="sourcePoint" />
+            <mxPoint x="-190" y="397" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2lLB-E0RqOmEVBIA-LBa-22" value="서버에 계정 추가" style="rounded=1;" parent="2lLB-E0RqOmEVBIA-LBa-20" vertex="1">
+          <mxGeometry x="20" y="272" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2lLB-E0RqOmEVBIA-LBa-29" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="2lLB-E0RqOmEVBIA-LBa-20" source="2lLB-E0RqOmEVBIA-LBa-22" target="2lLB-E0RqOmEVBIA-LBa-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="58" y="332" as="sourcePoint" />
+            <mxPoint x="57.5" y="387" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2lLB-E0RqOmEVBIA-LBa-17" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeColor=#FF0000;endArrow=open;endFill=0;" parent="1" source="2lLB-E0RqOmEVBIA-LBa-6" target="2lLB-E0RqOmEVBIA-LBa-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2lLB-E0RqOmEVBIA-LBa-19" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2lLB-E0RqOmEVBIA-LBa-9" target="2lLB-E0RqOmEVBIA-LBa-6">
+        <mxCell id="2lLB-E0RqOmEVBIA-LBa-19" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="2lLB-E0RqOmEVBIA-LBa-9" target="2lLB-E0RqOmEVBIA-LBa-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="237" y="575" as="sourcePoint" />
             <mxPoint x="188" y="465" as="targetPoint" />
@@ -77,14 +84,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2lLB-E0RqOmEVBIA-LBa-29" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2lLB-E0RqOmEVBIA-LBa-22" target="2lLB-E0RqOmEVBIA-LBa-27">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="538" y="480" as="sourcePoint" />
-            <mxPoint x="537.5" y="535" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2lLB-E0RqOmEVBIA-LBa-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;strokeColor=#FF0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2lLB-E0RqOmEVBIA-LBa-14" target="2lLB-E0RqOmEVBIA-LBa-9">
+        <mxCell id="2lLB-E0RqOmEVBIA-LBa-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;strokeColor=#FF0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2lLB-E0RqOmEVBIA-LBa-14" target="2lLB-E0RqOmEVBIA-LBa-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="460" y="258" as="sourcePoint" />
             <mxPoint x="530" y="258" as="targetPoint" />
