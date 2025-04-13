@@ -1,9 +1,242 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
   <diagram name="페이지-1" id="kcjGKXjA2x2VX-K3j-nC">
-    <mxGraphModel>
+    <mxGraphModel dx="975" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-1" value="사용자" style="swimlane;whiteSpace=wrap;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="90" y="128" width="700" height="712" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-4" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="_Xc8MMI0X7SMjXPEbRPi-1">
+          <mxGeometry x="197.25" y="32" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-5" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="_Xc8MMI0X7SMjXPEbRPi-1" source="_Xc8MMI0X7SMjXPEbRPi-4" target="_Xc8MMI0X7SMjXPEbRPi-6">
+          <mxGeometry x="100" y="40" as="geometry">
+            <mxPoint x="212.25" y="102" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-6" value="홈 화면 진입" style="rounded=1;" vertex="1" parent="_Xc8MMI0X7SMjXPEbRPi-1">
+          <mxGeometry x="157.25" y="102" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-8" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_Xc8MMI0X7SMjXPEbRPi-1" source="_Xc8MMI0X7SMjXPEbRPi-20" target="_Xc8MMI0X7SMjXPEbRPi-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="212.25" y="304" as="targetPoint" />
+            <mxPoint x="212.25" y="234" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-10" value="사용자가 어떤 탭 이동&lt;div&gt;버튼을 눌렀는가?&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_Xc8MMI0X7SMjXPEbRPi-1">
+          <mxGeometry x="216.25" y="154" width="154.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-11" value="&amp;lt;&amp;lt;캘린더&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_Xc8MMI0X7SMjXPEbRPi-1">
+          <mxGeometry x="294.5" y="203" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-12" value="&amp;lt;&amp;lt;D-Day&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_Xc8MMI0X7SMjXPEbRPi-1">
+          <mxGeometry x="204.5" y="233" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-17" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeColor=#FF0000;endArrow=open;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_Xc8MMI0X7SMjXPEbRPi-1" source="_Xc8MMI0X7SMjXPEbRPi-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="212.25" y="184" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-20" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="_Xc8MMI0X7SMjXPEbRPi-1">
+          <mxGeometry x="194.75" y="184" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-21" value="D-Day 화면 진입" style="rounded=1;" vertex="1" parent="_Xc8MMI0X7SMjXPEbRPi-1">
+          <mxGeometry x="157.25" y="264" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-19" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="_Xc8MMI0X7SMjXPEbRPi-1" source="_Xc8MMI0X7SMjXPEbRPi-20" target="_Xc8MMI0X7SMjXPEbRPi-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="237.25" y="201.01999999999998" as="sourcePoint" />
+            <mxPoint x="404.75" y="201.01999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-15" value="켈린더 화면 진입" style="rounded=1;" vertex="1" parent="_Xc8MMI0X7SMjXPEbRPi-1">
+          <mxGeometry x="480" y="266.5" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-24" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="_Xc8MMI0X7SMjXPEbRPi-1">
+          <mxGeometry x="194.75" y="594" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-23" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="_Xc8MMI0X7SMjXPEbRPi-1" source="_Xc8MMI0X7SMjXPEbRPi-20" target="_Xc8MMI0X7SMjXPEbRPi-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="212" as="sourcePoint" />
+            <mxPoint x="381" y="274" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20" y="201" />
+              <mxPoint x="20" y="612" />
+              <mxPoint x="195" y="612" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-26" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="_Xc8MMI0X7SMjXPEbRPi-1">
+          <mxGeometry x="194.75" y="354" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-27" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeColor=#FF0000;endArrow=open;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_Xc8MMI0X7SMjXPEbRPi-1" source="_Xc8MMI0X7SMjXPEbRPi-21" target="_Xc8MMI0X7SMjXPEbRPi-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="222" y="162" as="sourcePoint" />
+            <mxPoint x="222.25" y="194" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-29" value="D-Day 추가" style="rounded=1;" vertex="1" parent="_Xc8MMI0X7SMjXPEbRPi-1">
+          <mxGeometry x="84.75" y="424" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-30" value="D-Day 수정" style="rounded=1;" vertex="1" parent="_Xc8MMI0X7SMjXPEbRPi-1">
+          <mxGeometry x="216.25" y="424" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-31" value="D-Day 삭제" style="rounded=1;" vertex="1" parent="_Xc8MMI0X7SMjXPEbRPi-1">
+          <mxGeometry x="349.5" y="424" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-32" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_Xc8MMI0X7SMjXPEbRPi-1" source="_Xc8MMI0X7SMjXPEbRPi-26" target="_Xc8MMI0X7SMjXPEbRPi-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="149.5" y="244" as="sourcePoint" />
+            <mxPoint x="205" y="632" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="204" y="394" />
+              <mxPoint x="140" y="394" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-33" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_Xc8MMI0X7SMjXPEbRPi-1" source="_Xc8MMI0X7SMjXPEbRPi-26" target="_Xc8MMI0X7SMjXPEbRPi-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="214" y="390" as="sourcePoint" />
+            <mxPoint x="150" y="434" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="221" y="394" />
+              <mxPoint x="271" y="394" />
+              <mxPoint x="271" y="424" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-34" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="_Xc8MMI0X7SMjXPEbRPi-1" source="_Xc8MMI0X7SMjXPEbRPi-26" target="_Xc8MMI0X7SMjXPEbRPi-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="231" y="380" as="sourcePoint" />
+            <mxPoint x="281" y="424" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="405" y="372" />
+              <mxPoint x="405" y="394" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-35" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_Xc8MMI0X7SMjXPEbRPi-1" source="_Xc8MMI0X7SMjXPEbRPi-26" target="_Xc8MMI0X7SMjXPEbRPi-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="372" as="sourcePoint" />
+            <mxPoint x="139.5" y="544" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="50" y="372" />
+              <mxPoint x="50" y="542" />
+              <mxPoint x="212" y="542" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-36" value="&amp;lt;&amp;lt;아무것도 누르지 않음&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_Xc8MMI0X7SMjXPEbRPi-1">
+          <mxGeometry x="44.75" y="346" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-37" value="&amp;lt;&amp;lt;추가&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_Xc8MMI0X7SMjXPEbRPi-1">
+          <mxGeometry x="140.25" y="389" width="64.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-38" value="&amp;lt;&amp;lt;수정&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_Xc8MMI0X7SMjXPEbRPi-1">
+          <mxGeometry x="209.5" y="389" width="64.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-39" value="&amp;lt;&amp;lt;삭제&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_Xc8MMI0X7SMjXPEbRPi-1">
+          <mxGeometry x="342.5" y="368" width="64.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-28" value="사용자가 추가, 수정,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;삭제&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;버튼 중 어떤 버튼을 눌렀는가?&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_Xc8MMI0X7SMjXPEbRPi-1">
+          <mxGeometry x="216.25" y="324" width="156.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-2" value="" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#ff0000" vertex="1" parent="_Xc8MMI0X7SMjXPEbRPi-1">
+          <mxGeometry x="197.25" y="662" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-3" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_Xc8MMI0X7SMjXPEbRPi-1" source="_Xc8MMI0X7SMjXPEbRPi-24" target="_Xc8MMI0X7SMjXPEbRPi-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="286.75" y="339" as="sourcePoint" />
+            <mxPoint x="506.75" y="352" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-41" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_Xc8MMI0X7SMjXPEbRPi-1" source="_Xc8MMI0X7SMjXPEbRPi-29" target="_Xc8MMI0X7SMjXPEbRPi-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="382" as="sourcePoint" />
+            <mxPoint x="415" y="434" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="542" />
+              <mxPoint x="212" y="542" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-42" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_Xc8MMI0X7SMjXPEbRPi-1" source="_Xc8MMI0X7SMjXPEbRPi-30" target="_Xc8MMI0X7SMjXPEbRPi-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="484" as="sourcePoint" />
+            <mxPoint x="280" y="582" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="271" y="542" />
+              <mxPoint x="212" y="542" />
+              <mxPoint x="212" y="594" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-43" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_Xc8MMI0X7SMjXPEbRPi-1" source="_Xc8MMI0X7SMjXPEbRPi-31" target="_Xc8MMI0X7SMjXPEbRPi-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="281" y="484" as="sourcePoint" />
+            <mxPoint x="230" y="592" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="404" y="542" />
+              <mxPoint x="212" y="542" />
+              <mxPoint x="212" y="594" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-45" value="&amp;lt;&amp;lt;아무것도 누르지 않음&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_Xc8MMI0X7SMjXPEbRPi-1">
+          <mxGeometry x="20" y="203" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-47" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="_Xc8MMI0X7SMjXPEbRPi-1">
+          <mxGeometry x="517.5" y="355" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-49" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeColor=#FF0000;endArrow=open;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_Xc8MMI0X7SMjXPEbRPi-1" source="_Xc8MMI0X7SMjXPEbRPi-15" target="_Xc8MMI0X7SMjXPEbRPi-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="315" as="sourcePoint" />
+            <mxPoint x="540" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-50" value="사용자가 캘린더에 있는&lt;div&gt;D-Day 추가 버튼을 눌렀는가?&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_Xc8MMI0X7SMjXPEbRPi-1">
+          <mxGeometry x="540" y="325" width="156.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-51" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="_Xc8MMI0X7SMjXPEbRPi-1" source="_Xc8MMI0X7SMjXPEbRPi-47" target="_Xc8MMI0X7SMjXPEbRPi-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="577.5" y="431.5" as="sourcePoint" />
+            <mxPoint x="578" y="526.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="373" />
+              <mxPoint x="470" y="611" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-53" value="&amp;lt;&amp;lt;아니오&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_Xc8MMI0X7SMjXPEbRPi-1">
+          <mxGeometry x="450" y="339.5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-54" value="&amp;lt;&amp;lt;예&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_Xc8MMI0X7SMjXPEbRPi-1">
+          <mxGeometry x="517.5" y="390" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-55" value="캘린더 화면에서&#xa;D-Day 추가" style="rounded=1;" vertex="1" parent="_Xc8MMI0X7SMjXPEbRPi-1">
+          <mxGeometry x="480" y="426.5" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-56" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_Xc8MMI0X7SMjXPEbRPi-1" source="_Xc8MMI0X7SMjXPEbRPi-47" target="_Xc8MMI0X7SMjXPEbRPi-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="415" as="sourcePoint" />
+            <mxPoint x="493.5" y="427.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-57" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_Xc8MMI0X7SMjXPEbRPi-1" source="_Xc8MMI0X7SMjXPEbRPi-55" target="_Xc8MMI0X7SMjXPEbRPi-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="548" y="380" as="sourcePoint" />
+            <mxPoint x="240" y="622" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="535" y="611" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Xc8MMI0X7SMjXPEbRPi-16" value="D-Day 앱 D-Day, 캘린더 관련 활동" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="90" y="90" width="400" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
