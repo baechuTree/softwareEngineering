@@ -5,75 +5,29 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="aM9ryv3xv72pqoxQDRHE-5" value="앱 시스템" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="255" y="120" width="100" height="480" as="geometry" />
+          <mxGeometry x="255" y="120" width="100" height="520" as="geometry" />
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="aM9ryv3xv72pqoxQDRHE-5" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3ZrxkT63131DXNsMZdN8-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-5">
-          <mxGeometry x="45" y="360" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3ZrxkT63131DXNsMZdN8-19" value="5.1 입력된 정보대로&lt;div&gt;D-Day&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;추가 또는 수정&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-5">
-          <mxGeometry x="60" y="220" width="130" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3ZrxkT63131DXNsMZdN8-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-5">
-          <mxGeometry x="45" y="160" width="10" height="155" as="geometry" />
-        </mxCell>
-        <mxCell id="3ZrxkT63131DXNsMZdN8-16" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="aM9ryv3xv72pqoxQDRHE-5" source="3ZrxkT63131DXNsMZdN8-14" target="3ZrxkT63131DXNsMZdN8-17">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="60" y="255" as="sourcePoint" />
-            <mxPoint x="110" y="275" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="80" y="255" />
-              <mxPoint x="80" y="275" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3ZrxkT63131DXNsMZdN8-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-5">
-          <mxGeometry x="50" y="275" width="10" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="3ZrxkT63131DXNsMZdN8-25" value="3. D-Day 추가 또는 수정 버튼 클릭" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="aM9ryv3xv72pqoxQDRHE-5" target="3ZrxkT63131DXNsMZdN8-14">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-155" y="170" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="-80" y="170" />
-            </Array>
-            <mxPoint x="30" y="170" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3ZrxkT63131DXNsMZdN8-15" value="5. 정보 입력 후 확인 버튼 클릭" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="aM9ryv3xv72pqoxQDRHE-5" target="3ZrxkT63131DXNsMZdN8-14">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-155" y="245" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="-60" y="245" />
-            </Array>
-            <mxPoint x="20" y="245" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3ZrxkT63131DXNsMZdN8-21" value="6. 수정된 D-Day 리스트 출력" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="aM9ryv3xv72pqoxQDRHE-5" source="3ZrxkT63131DXNsMZdN8-14">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-155" y="305" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="20" y="305" />
-            </Array>
-            <mxPoint x="30" y="305" as="sourcePoint" />
-          </mxGeometry>
+          <mxGeometry x="45" y="390" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3ZrxkT63131DXNsMZdN8-30" value="7.1 선택된&lt;div&gt;D-Day 삭제(id로 식별)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-5">
-          <mxGeometry x="60" y="340" width="140" height="40" as="geometry" />
+          <mxGeometry x="60" y="370" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3ZrxkT63131DXNsMZdN8-31" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="aM9ryv3xv72pqoxQDRHE-5" target="3ZrxkT63131DXNsMZdN8-32">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="55" y="375" as="sourcePoint" />
-            <mxPoint x="110" y="395" as="targetPoint" />
+            <mxPoint x="55" y="405" as="sourcePoint" />
+            <mxPoint x="110" y="425" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="80" y="375" />
-              <mxPoint x="80" y="395" />
+              <mxPoint x="80" y="405" />
+              <mxPoint x="80" y="425" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="3ZrxkT63131DXNsMZdN8-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-5">
-          <mxGeometry x="50" y="395" width="10" height="20" as="geometry" />
+          <mxGeometry x="50" y="425" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-7" value="1. D-Day 화면 진입" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="aM9ryv3xv72pqoxQDRHE-2" target="aM9ryv3xv72pqoxQDRHE-6" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -102,37 +56,83 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="90" y="190" width="10" height="410" as="geometry" />
+          <mxGeometry x="90" y="190" width="10" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="3ZrxkT63131DXNsMZdN8-28" value="7. D-Day 삭제 버튼 클릭" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-2" target="3ZrxkT63131DXNsMZdN8-27">
+        <mxCell id="3ZrxkT63131DXNsMZdN8-28" value="7. D-Day 삭제 버튼 클릭" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="3ZrxkT63131DXNsMZdN8-27">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="115" y="480" as="sourcePoint" />
+            <mxPoint x="100" y="510" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="165" y="480" />
+              <mxPoint x="165" y="510" />
             </Array>
-            <mxPoint x="285" y="480" as="targetPoint" />
+            <mxPoint x="285" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3ZrxkT63131DXNsMZdN8-29" value="8. 수정된 D-Day 리스트 출력" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="550" as="targetPoint" />
+            <mxPoint x="100" y="580" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="175" y="550" />
+              <mxPoint x="175" y="580" />
             </Array>
-            <mxPoint x="300" y="550" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3ZrxkT63131DXNsMZdN8-26" value="4. 추가, 수정할 D-Day 정보 입력 창 출력" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="320" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="185" y="320" />
-            </Array>
-            <mxPoint x="300" y="320" as="sourcePoint" />
+            <mxPoint x="300" y="580" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3ZrxkT63131DXNsMZdN8-34" value="D-Day 앱 D-Day 관련&lt;div&gt;순차 다이어그램&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="80" y="30" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZrxkT63131DXNsMZdN8-19" value="5.1 입력된 정보대로&lt;div&gt;D-Day&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;추가 또는 수정&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="315" y="350" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZrxkT63131DXNsMZdN8-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="300" y="290" width="10" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZrxkT63131DXNsMZdN8-16" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="3ZrxkT63131DXNsMZdN8-14" target="3ZrxkT63131DXNsMZdN8-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="315" y="385" as="sourcePoint" />
+            <mxPoint x="365" y="405" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="335" y="385" />
+              <mxPoint x="335" y="405" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZrxkT63131DXNsMZdN8-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="305" y="405" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZrxkT63131DXNsMZdN8-25" value="3. D-Day 추가 또는 수정 버튼 클릭" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="3ZrxkT63131DXNsMZdN8-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="300" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="175" y="300" />
+            </Array>
+            <mxPoint x="285" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZrxkT63131DXNsMZdN8-15" value="5. 정보 입력 후 확인 버튼 클릭" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1" target="3ZrxkT63131DXNsMZdN8-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="375" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="195" y="375" />
+            </Array>
+            <mxPoint x="275" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZrxkT63131DXNsMZdN8-21" value="6. 수정된 D-Day 리스트 출력" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="3ZrxkT63131DXNsMZdN8-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="435" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="275" y="435" />
+            </Array>
+            <mxPoint x="285" y="435" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZrxkT63131DXNsMZdN8-26" value="4. 추가, 수정할 D-Day 정보 입력 창 출력" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="185" y="330" />
+            </Array>
+            <mxPoint x="300" y="330" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
