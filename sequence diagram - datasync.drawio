@@ -29,34 +29,43 @@
           <mxGeometry x="623.8199999999999" y="340" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yXau8ex7B6AjTLi0JQIw-1" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="280" y="430" width="360" height="100" as="geometry" />
+          <mxGeometry x="280" y="430" width="360" height="110" as="geometry" />
         </mxCell>
         <mxCell id="yXau8ex7B6AjTLi0JQIw-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="yXau8ex7B6AjTLi0JQIw-1">
-          <mxGeometry width="360" height="100" as="geometry" />
+          <mxGeometry width="360" height="110.00000000000001" as="geometry" />
         </mxCell>
         <mxCell id="yXau8ex7B6AjTLi0JQIw-3" value="&amp;nbsp; alt" style="shape=card;whiteSpace=wrap;html=1;direction=west;size=20;fillColor=none;align=left;" vertex="1" parent="yXau8ex7B6AjTLi0JQIw-1">
-          <mxGeometry width="40" height="15" as="geometry" />
-        </mxCell>
-        <mxCell id="yXau8ex7B6AjTLi0JQIw-4" value="[서버&lt;div&gt;데이터가&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;최신]&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yXau8ex7B6AjTLi0JQIw-1">
-          <mxGeometry y="17" width="80" height="17.5" as="geometry" />
+          <mxGeometry width="40" height="16.5" as="geometry" />
         </mxCell>
         <mxCell id="yXau8ex7B6AjTLi0JQIw-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yXau8ex7B6AjTLi0JQIw-1" source="yXau8ex7B6AjTLi0JQIw-2" target="yXau8ex7B6AjTLi0JQIw-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="277.37704918032784" y="90" as="sourcePoint" />
-            <mxPoint x="306.88524590163934" y="65" as="targetPoint" />
+            <mxPoint x="277.37704918032784" y="99.00000000000001" as="sourcePoint" />
+            <mxPoint x="306.88524590163934" y="71.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yXau8ex7B6AjTLi0JQIw-7" value="3.3 기기에 저장된 앱 데이터를 서버로 업로드" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;labelBackgroundColor=none;" edge="1" parent="yXau8ex7B6AjTLi0JQIw-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="120" y="80" as="sourcePoint" />
+            <mxPoint x="120" y="87.5" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="209.64" y="80" />
+              <mxPoint x="209.64" y="87.5" />
             </Array>
-            <mxPoint x="330" y="80" as="targetPoint" />
+            <mxPoint x="330" y="87.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-6" value="[사용가 기기&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;데이터가 최신]&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yXau8ex7B6AjTLi0JQIw-1">
+          <mxGeometry y="70" width="80" height="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-53" value="3.2 서버에 저장된 데이터를 앱으로 다운로드" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endFill=1;labelBackgroundColor=none;" edge="1" parent="yXau8ex7B6AjTLi0JQIw-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="118.82000000000016" y="32.99500000000012" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="253.77049180327867" y="32.995000000000005" />
+            </Array>
+            <mxPoint x="328.82000000000016" y="32.99500000000012" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yXau8ex7B6AjTLi0JQIw-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="608.82" y="360" width="10" height="160" as="geometry" />
+          <mxGeometry x="608.82" y="360" width="10" height="170" as="geometry" />
         </mxCell>
         <mxCell id="yXau8ex7B6AjTLi0JQIw-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="613.8199999999999" y="395" width="10" height="20" as="geometry" />
@@ -72,7 +81,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yXau8ex7B6AjTLi0JQIw-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="388.82" y="200" width="10" height="370" as="geometry" />
+          <mxGeometry x="388.82" y="200" width="10" height="380" as="geometry" />
         </mxCell>
         <mxCell id="yXau8ex7B6AjTLi0JQIw-40" value="1. 데이터 동기화 버튼 클릭" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -108,22 +117,13 @@
             <mxPoint x="590" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yXau8ex7B6AjTLi0JQIw-53" value="3.2 서버에 저장된 데이터를 앱으로 다운로드" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endFill=1;labelBackgroundColor=none;" edge="1" parent="1" source="yXau8ex7B6AjTLi0JQIw-19">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="398.82000000000016" y="457.5050000000001" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="533.7704918032787" y="457.505" />
-            </Array>
-            <mxPoint x="622.295081967213" y="457.505" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="yXau8ex7B6AjTLi0JQIw-54" value="4. 데이터 동기화 완료 메시지 출력" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="143.82" y="560" as="targetPoint" />
+            <mxPoint x="143.82" y="570" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="373.82" y="560" />
+              <mxPoint x="373.82" y="570" />
             </Array>
-            <mxPoint x="388.82" y="560" as="sourcePoint" />
+            <mxPoint x="388.82" y="570" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yXau8ex7B6AjTLi0JQIw-55" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -150,8 +150,8 @@
         <mxCell id="yXau8ex7B6AjTLi0JQIw-64" value="[로그인 순차 다이어그램&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;]&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yXau8ex7B6AjTLi0JQIw-61">
           <mxGeometry y="14.29" width="250" height="21.43" as="geometry" />
         </mxCell>
-        <mxCell id="yXau8ex7B6AjTLi0JQIw-6" value="[사용가 기기&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;데이터가 최신]&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="492" width="80" height="17.5" as="geometry" />
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-4" value="[서버&lt;div&gt;데이터가&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;최신]&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="449.7" width="80" height="19.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
