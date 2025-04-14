@@ -1,19 +1,19 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
   <diagram name="페이지-1" id="AUUasoNCJ9PqL8mBtpLe">
-    <mxGraphModel dx="783" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1446" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-1" value="앱 시스템" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-1" value="앱 시스템" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="280" y="120" width="100" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="uxOgyWLReFZ4HEI4TJ-G-1">
+        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="uxOgyWLReFZ4HEI4TJ-G-1" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-23" value="5.1 올해, 내년 D-Day 데이터를&lt;div&gt;가져와 캘린더에 배치&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="uxOgyWLReFZ4HEI4TJ-G-1">
+        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-23" value="1.1 올해, 내년 D-Day 데이터를&lt;div&gt;가져와 캘린더에 배치&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="uxOgyWLReFZ4HEI4TJ-G-1" vertex="1">
           <mxGeometry x="60" y="70" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-24" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="uxOgyWLReFZ4HEI4TJ-G-1" target="uxOgyWLReFZ4HEI4TJ-G-25">
+        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-24" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="uxOgyWLReFZ4HEI4TJ-G-1" target="uxOgyWLReFZ4HEI4TJ-G-25" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="55" y="105" as="sourcePoint" />
             <mxPoint x="110" y="125" as="targetPoint" />
@@ -23,10 +23,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="uxOgyWLReFZ4HEI4TJ-G-1">
+        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="uxOgyWLReFZ4HEI4TJ-G-1" vertex="1">
           <mxGeometry x="50" y="125" width="10" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-7" value="1. 캘린더 화면 진입" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="uxOgyWLReFZ4HEI4TJ-G-11" target="uxOgyWLReFZ4HEI4TJ-G-2">
+        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-7" value="1. 캘린더 화면 진입" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="uxOgyWLReFZ4HEI4TJ-G-11" target="uxOgyWLReFZ4HEI4TJ-G-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="210" as="sourcePoint" />
             <Array as="points">
@@ -34,7 +34,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-8" value="2. 캘린더 리스트 출력" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-8" value="2. 캘린더 리스트 출력" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="100" y="270" as="targetPoint" />
             <Array as="points">
@@ -43,28 +43,28 @@
             <mxPoint x="325" y="270" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-9" value="사용자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-9" value="사용자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="80" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-10" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="uxOgyWLReFZ4HEI4TJ-G-11">
+        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-10" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" source="uxOgyWLReFZ4HEI4TJ-G-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="95" y="420" as="sourcePoint" />
             <mxPoint x="95" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="90" y="190" width="10" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-14" value="D-Day 앱 캘린더 관련&lt;div&gt;순차 다이어그램&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-14" value="D-Day 앱 캘린더 관련&lt;div&gt;순차 다이어그램&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
           <mxGeometry x="80" y="30" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-15" value="5.1 입력된 정보대로&lt;div&gt;D-Day&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;추가&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-15" value="5.1 입력된 정보대로&lt;div&gt;D-Day&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;추가&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="340" y="380" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="325" y="320" width="10" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-17" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="uxOgyWLReFZ4HEI4TJ-G-16" target="uxOgyWLReFZ4HEI4TJ-G-18">
+        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-17" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="uxOgyWLReFZ4HEI4TJ-G-16" target="uxOgyWLReFZ4HEI4TJ-G-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="340" y="415" as="sourcePoint" />
             <mxPoint x="390" y="435" as="targetPoint" />
@@ -74,10 +74,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="330" y="435" width="10" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-19" value="3. 캘린더 화면에서 D-Day 추가 버튼 클릭" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="uxOgyWLReFZ4HEI4TJ-G-16">
+        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-19" value="3. 캘린더 화면에서 D-Day 추가 버튼 클릭" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="uxOgyWLReFZ4HEI4TJ-G-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="100" y="330" as="sourcePoint" />
             <Array as="points">
@@ -86,7 +86,7 @@
             <mxPoint x="285" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-20" value="5. 정보 입력 후 확인 버튼 클릭" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1" target="uxOgyWLReFZ4HEI4TJ-G-16">
+        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-20" value="5. 정보 입력 후 확인 버튼 클릭" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" parent="1" target="uxOgyWLReFZ4HEI4TJ-G-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="100" y="405" as="sourcePoint" />
             <Array as="points">
@@ -95,7 +95,7 @@
             <mxPoint x="275" y="405" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-21" value="6. 새 D-Day를 추가한 캘린더 출력" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="uxOgyWLReFZ4HEI4TJ-G-16">
+        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-21" value="6. 새 D-Day를 추가한 캘린더 출력" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="uxOgyWLReFZ4HEI4TJ-G-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="100" y="465" as="targetPoint" />
             <Array as="points">
@@ -104,7 +104,7 @@
             <mxPoint x="285" y="465" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-22" value="4. 추가할 D-Day 정보 입력 창 출력" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endFill=1;" edge="1" parent="1" source="uxOgyWLReFZ4HEI4TJ-G-16">
+        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-22" value="4. 추가할 D-Day 정보 입력 창 출력" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endFill=1;" parent="1" source="uxOgyWLReFZ4HEI4TJ-G-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="100" y="360" as="targetPoint" />
             <Array as="points">
