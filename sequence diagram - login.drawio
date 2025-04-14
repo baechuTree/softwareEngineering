@@ -69,7 +69,7 @@
         <mxCell id="L4eoCNI2oBLxU_7ZVuts-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="133.82" y="190" width="10" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="L4eoCNI2oBLxU_7ZVuts-17" value="D-Day 앱 로그인, 데이터 동기화 관련&lt;div&gt;순차 다이어그램&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+        <mxCell id="L4eoCNI2oBLxU_7ZVuts-17" value="D-Day 앱 로그인 관련&lt;div&gt;순차 다이어그램&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="123.82" y="30" width="526.18" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L4eoCNI2oBLxU_7ZVuts-18" value="3. 정보 입력 후 확인 버튼 클릭" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="L4eoCNI2oBLxU_7ZVuts-23">
