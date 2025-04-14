@@ -1,9 +1,164 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
   <diagram name="페이지-1" id="L8Ghz3SxN5thEWN98ch8">
-    <mxGraphModel>
+    <mxGraphModel dx="1531" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-18" value="서버 시스템" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="563.82" y="120" width="100" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-24" value="사용자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="123.82" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-25" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="yXau8ex7B6AjTLi0JQIw-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="138.82" y="420" as="sourcePoint" />
+            <mxPoint x="138.82" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="133.82" y="190" width="10" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-27" value="D-Day 앱 데이터 동기화 관련&lt;div&gt;순차 다이어그램&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="123.82" y="30" width="526.18" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-29" value="앱 시스템" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="343.82" y="120" width="100" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-52" value="3.1.1 어느 쪽 데이터가&lt;div&gt;최신인지 체크&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="623.8199999999999" y="340" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="280" y="430" width="360" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="yXau8ex7B6AjTLi0JQIw-1">
+          <mxGeometry width="360" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-3" value="&amp;nbsp; alt" style="shape=card;whiteSpace=wrap;html=1;direction=west;size=20;fillColor=none;align=left;" vertex="1" parent="yXau8ex7B6AjTLi0JQIw-1">
+          <mxGeometry width="32.04" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-4" value="[서버&lt;div&gt;데이터가&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;최신]&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yXau8ex7B6AjTLi0JQIw-1">
+          <mxGeometry y="15" width="80" height="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yXau8ex7B6AjTLi0JQIw-1" source="yXau8ex7B6AjTLi0JQIw-2" target="yXau8ex7B6AjTLi0JQIw-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="277.37704918032784" y="90" as="sourcePoint" />
+            <mxPoint x="306.88524590163934" y="65" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-6" value="[사용가 기기&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;데이터가 최신]&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yXau8ex7B6AjTLi0JQIw-1">
+          <mxGeometry y="60" width="80" height="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-7" value="3.3 서버에 데이터 업로드" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="yXau8ex7B6AjTLi0JQIw-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="80" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="209.64" y="80" />
+            </Array>
+            <mxPoint x="330" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="608.82" y="360" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="613.8199999999999" y="395" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-21" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="yXau8ex7B6AjTLi0JQIw-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="618.8199999999999" y="375" as="sourcePoint" />
+            <mxPoint x="673.8199999999999" y="395" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="643.8199999999999" y="375" />
+              <mxPoint x="643.8199999999999" y="395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="388.82" y="200" width="10" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-40" value="1. 데이터 동기화 버튼 클릭" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="143.82" y="200" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="228.64" y="200" />
+            </Array>
+            <mxPoint x="388.82" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-41" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="yXau8ex7B6AjTLi0JQIw-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="398.82" y="215" as="sourcePoint" />
+            <mxPoint x="453.82" y="235" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="423.82" y="215" />
+              <mxPoint x="423.82" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="393.82" y="235" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-48" value="1.1 만료되지 않은&lt;div&gt;로그인 토큰이 있는지 체크&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="403.82" y="180" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-50" value="3.1 데이터 동기화 요청 서버에 전송" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="yXau8ex7B6AjTLi0JQIw-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="398.82000000000016" y="360" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="488.64" y="360" />
+            </Array>
+            <mxPoint x="590" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-53" value="3.2 서버에서 데이터 다운로드" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endFill=1;" edge="1" parent="1" source="yXau8ex7B6AjTLi0JQIw-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="398.82000000000016" y="457.5050000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="533.7704918032787" y="457.505" />
+            </Array>
+            <mxPoint x="622.295081967213" y="457.505" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-54" value="4. 데이터 동기화 완료 메시지 출력" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="143.82" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="373.82" y="560" />
+            </Array>
+            <mxPoint x="388.82" y="560" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-55" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="10" y="270" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-56" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="yXau8ex7B6AjTLi0JQIw-55">
+          <mxGeometry width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-57" value="&amp;nbsp; opt" style="shape=card;whiteSpace=wrap;html=1;direction=west;size=20;fillColor=none;align=left;" vertex="1" parent="yXau8ex7B6AjTLi0JQIw-55">
+          <mxGeometry width="57.14285714285714" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-58" value="[만료되지 않은&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;토큰을&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;찾지 못했을 시]&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yXau8ex7B6AjTLi0JQIw-55">
+          <mxGeometry y="20" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-59" value="3. 로그인 후 데이터 동기화 버튼 재클릭" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="144" y="330" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="206.25233704292526" y="330" />
+            </Array>
+            <mxPoint x="389" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-60" value="2. 로그인 요청(로그인 순차 다이어그램으로 이동)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="144" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="228.6052782193958" y="300" />
+            </Array>
+            <mxPoint x="389" y="300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
