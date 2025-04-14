@@ -46,7 +46,7 @@
             <mxPoint x="306.88524590163934" y="65" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yXau8ex7B6AjTLi0JQIw-7" value="3.3 기기 데이터를 서버로 업로드" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="yXau8ex7B6AjTLi0JQIw-1">
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-7" value="3.3 기기에 저장된 앱 데이터를 서버로 업로드" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;labelBackgroundColor=none;" edge="1" parent="yXau8ex7B6AjTLi0JQIw-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="120" y="80" as="sourcePoint" />
             <Array as="points">
