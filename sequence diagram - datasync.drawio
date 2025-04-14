@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
   <diagram name="페이지-1" id="L8Ghz3SxN5thEWN98ch8">
-    <mxGraphModel dx="1531" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1279" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,8 +25,8 @@
         <mxCell id="yXau8ex7B6AjTLi0JQIw-29" value="앱 시스템" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="343.82" y="120" width="100" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="yXau8ex7B6AjTLi0JQIw-52" value="3.1.1 어느 쪽 데이터가&lt;div&gt;최신인지 체크&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="623.8199999999999" y="340" width="140" height="40" as="geometry" />
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-52" value="3.1.1 어느 쪽 데이터가&lt;div&gt;최신인지 체크&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="623.8199999999999" y="340" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yXau8ex7B6AjTLi0JQIw-1" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="280" y="430" width="360" height="100" as="geometry" />
@@ -99,8 +99,8 @@
         <mxCell id="yXau8ex7B6AjTLi0JQIw-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="393.82" y="235" width="10" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yXau8ex7B6AjTLi0JQIw-48" value="1.1 만료되지 않은&lt;div&gt;로그인 토큰이 있는지 체크&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="403.82" y="180" width="150" height="40" as="geometry" />
+        <mxCell id="yXau8ex7B6AjTLi0JQIw-48" value="1.1 만료되지 않은&lt;div&gt;로그인 토큰이 있는지 체크&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="403.82" y="180" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yXau8ex7B6AjTLi0JQIw-50" value="3.1 데이터 동기화 요청 서버에 전송" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="yXau8ex7B6AjTLi0JQIw-19">
           <mxGeometry relative="1" as="geometry">
