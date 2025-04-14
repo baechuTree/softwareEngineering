@@ -13,9 +13,6 @@
         <mxCell id="3ZrxkT63131DXNsMZdN8-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="aM9ryv3xv72pqoxQDRHE-5" vertex="1">
           <mxGeometry x="45" y="390" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3ZrxkT63131DXNsMZdN8-30" value="7.1 선택된&lt;div&gt;D-Day 삭제(id로 식별)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="aM9ryv3xv72pqoxQDRHE-5" vertex="1">
-          <mxGeometry x="60" y="370" width="140" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="3ZrxkT63131DXNsMZdN8-31" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="aM9ryv3xv72pqoxQDRHE-5" target="3ZrxkT63131DXNsMZdN8-32" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="55" y="405" as="sourcePoint" />
@@ -73,8 +70,8 @@
         <mxCell id="3ZrxkT63131DXNsMZdN8-34" value="D-Day 앱 D-Day 관련&lt;div&gt;순차 다이어그램&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
           <mxGeometry x="80" y="30" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3ZrxkT63131DXNsMZdN8-19" value="5.1 입력된 정보대로&lt;div&gt;D-Day&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;추가 또는 수정&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="340" y="350" width="130" height="40" as="geometry" />
+        <mxCell id="3ZrxkT63131DXNsMZdN8-19" value="5.1 입력된 정보대로&lt;div&gt;D-Day&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;추가 또는 수정&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="340" y="350" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3ZrxkT63131DXNsMZdN8-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="325" y="290" width="10" height="155" as="geometry" />
@@ -127,6 +124,9 @@
             </Array>
             <mxPoint x="300" y="330" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZrxkT63131DXNsMZdN8-30" value="7.1 선택된&lt;div&gt;D-Day 삭제(id로 식별)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="340" y="490" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
