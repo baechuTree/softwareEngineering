@@ -26,6 +26,34 @@
         <mxCell id="uxOgyWLReFZ4HEI4TJ-G-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="uxOgyWLReFZ4HEI4TJ-G-1" vertex="1">
           <mxGeometry x="50" y="125" width="10" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-17" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="uxOgyWLReFZ4HEI4TJ-G-1" target="uxOgyWLReFZ4HEI4TJ-G-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="55" y="305" as="sourcePoint" />
+            <mxPoint x="110" y="325" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="305" />
+              <mxPoint x="80" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-21" value="6. 새 D-Day를 추가한 캘린더 출력" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="uxOgyWLReFZ4HEI4TJ-G-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-180" y="355" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-5" y="355" />
+            </Array>
+            <mxPoint x="45" y="355" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-15" value="5.1 입력된 정보대로&lt;div&gt;D-Day&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;추가&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="uxOgyWLReFZ4HEI4TJ-G-1" vertex="1">
+          <mxGeometry x="60" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="uxOgyWLReFZ4HEI4TJ-G-1" vertex="1">
+          <mxGeometry x="45" y="205" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="uxOgyWLReFZ4HEI4TJ-G-1" vertex="1">
+          <mxGeometry x="50" y="325" width="10" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="uxOgyWLReFZ4HEI4TJ-G-7" value="1. 캘린더 화면 진입" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="uxOgyWLReFZ4HEI4TJ-G-11" target="uxOgyWLReFZ4HEI4TJ-G-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="210" as="sourcePoint" />
@@ -58,25 +86,6 @@
         <mxCell id="uxOgyWLReFZ4HEI4TJ-G-14" value="D-Day 앱 캘린더 관련&lt;div&gt;순차 다이어그램&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
           <mxGeometry x="80" y="30" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-15" value="5.1 입력된 정보대로&lt;div&gt;D-Day&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;추가&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="340" y="380" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="325" y="320" width="10" height="155" as="geometry" />
-        </mxCell>
-        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-17" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="uxOgyWLReFZ4HEI4TJ-G-16" target="uxOgyWLReFZ4HEI4TJ-G-18" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340" y="415" as="sourcePoint" />
-            <mxPoint x="390" y="435" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="360" y="415" />
-              <mxPoint x="360" y="435" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="330" y="435" width="10" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="uxOgyWLReFZ4HEI4TJ-G-19" value="3. 캘린더 화면에서 D-Day 추가 버튼 클릭" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="uxOgyWLReFZ4HEI4TJ-G-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="100" y="330" as="sourcePoint" />
@@ -93,15 +102,6 @@
               <mxPoint x="195" y="405" />
             </Array>
             <mxPoint x="275" y="405" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uxOgyWLReFZ4HEI4TJ-G-21" value="6. 새 D-Day를 추가한 캘린더 출력" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="uxOgyWLReFZ4HEI4TJ-G-16" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="465" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="275" y="465" />
-            </Array>
-            <mxPoint x="285" y="465" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uxOgyWLReFZ4HEI4TJ-G-22" value="4. 추가할 D-Day 정보 입력 창 출력" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endFill=1;" parent="1" source="uxOgyWLReFZ4HEI4TJ-G-16" edge="1">
