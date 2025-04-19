@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="페이지-1" id="bhSuStpkLtEEY8tT8klw">
-    <mxGraphModel dx="1178" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1488" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Qbec9f8TBCMxM9Ceqzkb-2" value="application" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="70" width="360" height="530" as="geometry" />
+          <mxGeometry x="90" y="70" width="370" height="1010" as="geometry" />
         </mxCell>
         <mxCell id="Qbec9f8TBCMxM9Ceqzkb-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Qbec9f8TBCMxM9Ceqzkb-2" source="Qbec9f8TBCMxM9Ceqzkb-3" target="Qbec9f8TBCMxM9Ceqzkb-4">
           <mxGeometry relative="1" as="geometry">
@@ -24,6 +24,14 @@
         <mxCell id="Qbec9f8TBCMxM9Ceqzkb-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Qbec9f8TBCMxM9Ceqzkb-2" source="Qbec9f8TBCMxM9Ceqzkb-6" target="Qbec9f8TBCMxM9Ceqzkb-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Qbec9f8TBCMxM9Ceqzkb-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Qbec9f8TBCMxM9Ceqzkb-2" source="Qbec9f8TBCMxM9Ceqzkb-6" target="Qbec9f8TBCMxM9Ceqzkb-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="200" />
+              <mxPoint x="180" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Qbec9f8TBCMxM9Ceqzkb-6" value="Calendar&lt;div&gt;Module&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Qbec9f8TBCMxM9Ceqzkb-2">
           <mxGeometry x="30" y="180" width="120" height="60" as="geometry" />
         </mxCell>
@@ -37,7 +45,15 @@
           <mxGeometry x="150" y="70" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Qbec9f8TBCMxM9Ceqzkb-14" value="D-Day 데이터 조회" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qbec9f8TBCMxM9Ceqzkb-2">
-          <mxGeometry x="150" y="190" width="110" height="20" as="geometry" />
+          <mxGeometry x="150" y="210" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Qbec9f8TBCMxM9Ceqzkb-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Qbec9f8TBCMxM9Ceqzkb-2" source="Qbec9f8TBCMxM9Ceqzkb-19" target="Qbec9f8TBCMxM9Ceqzkb-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="280" />
+              <mxPoint x="300" y="280" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Qbec9f8TBCMxM9Ceqzkb-19" value="Widget&lt;div&gt;Module&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Qbec9f8TBCMxM9Ceqzkb-2">
           <mxGeometry x="30" y="290" width="120" height="60" as="geometry" />
@@ -57,8 +73,20 @@
         <mxCell id="Qbec9f8TBCMxM9Ceqzkb-26" value="기기가 위젯 정보 요청" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qbec9f8TBCMxM9Ceqzkb-2">
           <mxGeometry x="150" y="290" width="120" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="Qbec9f8TBCMxM9Ceqzkb-30" value="D-Day&lt;div&gt;데이터&lt;/div&gt;&lt;div&gt;추가&lt;/div&gt;&lt;div&gt;요청&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qbec9f8TBCMxM9Ceqzkb-2">
+          <mxGeometry x="180" y="120" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Qbec9f8TBCMxM9Ceqzkb-32" value="D-Day 데이터 조회" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qbec9f8TBCMxM9Ceqzkb-2">
+          <mxGeometry x="150" y="260" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Qbec9f8TBCMxM9Ceqzkb-33" value="User&lt;div&gt;Module&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Qbec9f8TBCMxM9Ceqzkb-2">
+          <mxGeometry x="30" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qbec9f8TBCMxM9Ceqzkb-34" value="회원가입, 로그인, 로그아웃, 계정 정보 조회/수정, 데이터 동기화" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qbec9f8TBCMxM9Ceqzkb-2">
+          <mxGeometry x="30" y="570" width="120" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="Qbec9f8TBCMxM9Ceqzkb-15" value="Machine&lt;div&gt;(Smartphone, pad, etc.)&lt;/div&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
-          <mxGeometry x="490" y="440" width="100" height="120" as="geometry" />
+          <mxGeometry x="490" y="423" width="100" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Qbec9f8TBCMxM9Ceqzkb-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qbec9f8TBCMxM9Ceqzkb-17" target="Qbec9f8TBCMxM9Ceqzkb-15">
           <mxGeometry relative="1" as="geometry">
@@ -80,6 +108,23 @@
         </mxCell>
         <mxCell id="Qbec9f8TBCMxM9Ceqzkb-28" value="기기에 위젯 정보, 위젯에 추가할 D-Day 정보 전달" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="240" y="393" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qbec9f8TBCMxM9Ceqzkb-35" value="Server&lt;div&gt;System&lt;/div&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="570" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Qbec9f8TBCMxM9Ceqzkb-36" value="계정 정보, 동기화 데이터 저장" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="690" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qbec9f8TBCMxM9Ceqzkb-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qbec9f8TBCMxM9Ceqzkb-33" target="Qbec9f8TBCMxM9Ceqzkb-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="610" />
+              <mxPoint x="430" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qbec9f8TBCMxM9Ceqzkb-39" value="서버와 데이터 동기화,&lt;div&gt;서버에 사용자 인증 요청&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="577" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
