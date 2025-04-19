@@ -1,9 +1,44 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="페이지-1" id="bhSuStpkLtEEY8tT8klw">
-    <mxGraphModel>
+    <mxGraphModel dx="1414" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Qbec9f8TBCMxM9Ceqzkb-2" value="application" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="70" width="394" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="Qbec9f8TBCMxM9Ceqzkb-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Qbec9f8TBCMxM9Ceqzkb-2" source="Qbec9f8TBCMxM9Ceqzkb-3" target="Qbec9f8TBCMxM9Ceqzkb-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="100" />
+              <mxPoint x="240" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qbec9f8TBCMxM9Ceqzkb-3" value="DDay&lt;div&gt;Management&lt;/div&gt;&lt;div&gt;Module&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Qbec9f8TBCMxM9Ceqzkb-2">
+          <mxGeometry x="30" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qbec9f8TBCMxM9Ceqzkb-4" value="DDay&lt;div&gt;AppData&lt;/div&gt;&lt;div&gt;File&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=18;" vertex="1" parent="Qbec9f8TBCMxM9Ceqzkb-2">
+          <mxGeometry x="270" y="160" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Qbec9f8TBCMxM9Ceqzkb-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Qbec9f8TBCMxM9Ceqzkb-2" source="Qbec9f8TBCMxM9Ceqzkb-6" target="Qbec9f8TBCMxM9Ceqzkb-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qbec9f8TBCMxM9Ceqzkb-6" value="Calendar&lt;div&gt;Module&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Qbec9f8TBCMxM9Ceqzkb-2">
+          <mxGeometry x="30" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qbec9f8TBCMxM9Ceqzkb-9" value="D-Day 추가, 조회,&lt;div&gt;수정, 삭제 관리&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qbec9f8TBCMxM9Ceqzkb-2">
+          <mxGeometry x="30" y="130" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qbec9f8TBCMxM9Ceqzkb-10" value="캘린더 관리" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qbec9f8TBCMxM9Ceqzkb-2">
+          <mxGeometry x="30" y="240" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Qbec9f8TBCMxM9Ceqzkb-12" value="D-Day 데이터 추가, 조회, 수정, 삭제" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qbec9f8TBCMxM9Ceqzkb-2">
+          <mxGeometry x="150" y="70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qbec9f8TBCMxM9Ceqzkb-14" value="D-Day 데이터 조회" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qbec9f8TBCMxM9Ceqzkb-2">
+          <mxGeometry x="150" y="190" width="120" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
