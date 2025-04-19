@@ -58,7 +58,7 @@
         <mxCell id="Qbec9f8TBCMxM9Ceqzkb-19" value="Widget&lt;div&gt;Module&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Qbec9f8TBCMxM9Ceqzkb-2">
           <mxGeometry x="30" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Qbec9f8TBCMxM9Ceqzkb-20" value="위젯 설치, D-Day 데이터 위젯에 적용" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qbec9f8TBCMxM9Ceqzkb-2">
+        <mxCell id="Qbec9f8TBCMxM9Ceqzkb-20" value="위젯 설치, D-Day&lt;div&gt;데이터 위젯에 적용&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qbec9f8TBCMxM9Ceqzkb-2">
           <mxGeometry x="30" y="350" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Qbec9f8TBCMxM9Ceqzkb-17" value="Notification&lt;div&gt;Module&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Qbec9f8TBCMxM9Ceqzkb-2">
@@ -111,7 +111,7 @@
         <mxCell id="Qbec9f8TBCMxM9Ceqzkb-35" value="Server&lt;div&gt;System&lt;/div&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
           <mxGeometry x="659" y="570" width="100" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Qbec9f8TBCMxM9Ceqzkb-36" value="계정 정보 및 동기화 데이터 저장, 사용자 인증 수행" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Qbec9f8TBCMxM9Ceqzkb-36" value="계정 정보 및 동기화 데이터 저장,&lt;div&gt;사용자 인증 수행&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="659" y="690" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Qbec9f8TBCMxM9Ceqzkb-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qbec9f8TBCMxM9Ceqzkb-33" target="Qbec9f8TBCMxM9Ceqzkb-35">
